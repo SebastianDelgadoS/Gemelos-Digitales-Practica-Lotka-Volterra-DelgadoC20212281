@@ -1,5 +1,5 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=SebastianDelgadoS/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-C20212281_DelgadoSoto)
-# Gemelos Digitales. Práctica 1: Leyes de crecimiento exponencial [DelgadoC20212281]
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=SebastianDelgadoS/Gemelos-Digitales-Practica-Lotka-Volterra-DelgadoC20212281)
+# Gemelos Digitales. Práctica 2: Sistema presa-depredador de Lotka-Volterra [DelgadoC20212281]
 
 ## Autor
 Delgado Soto Jose Sebastian
@@ -7,13 +7,14 @@ Delgado Soto Jose Sebastian
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: l20212281@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica se implementará la simulación del sistema de Lotka-Volterra para modelar la interacción entre Chilocorus cacti y Heteropsylla cubana, utilizando métodos numéricos para la solución de ecuaciones diferenciales ordinarias. Se explorará el ajuste de parámetros iniciales P0 con el fin de obtener una mejor aproximación a los datos experimentales y evaluar la estabilidad del sistema en distintos escenarios biológicos. Además, se analizará la influencia de los parámetros de crecimiento y depredación en la dinámica poblacional de ambos agentes, permitiendo interpretar la evolución de la infección y la respuesta inmune. Esta práctica integra herramientas computacionales y modelos matemáticos para la comprensión de interacción animal, con aplicaciones como por ejemplo control de plagas.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1. Aplicar los métodos de Euler y Heun para resolver el sistema depredador-presa de Lotka-Volterra y analizar su dinámica en el tiempo y en el espacio de fases.
+2. Comparar soluciones obtenidas con distintos solvers de ecuaciones diferenciales ordinarias (ODEs) en MATLAB para evaluar estabilidad y precisión en la simulación.
+3. Ajustar los parámetros del modelo Lotka-Volterra mediante algoritmos de regresión no lineal para estimar tasas de crecimiento y depredación en poblaciones biológicas.
+4. Determinar los puntos de equilibrio del sistema Lotka-Volterra y analizar su estabilidad mediante el cálculo de autovalores de la matriz Jacobiana.
+5. Implementar simulaciones en Simulink para visualizar el comportamiento dinámico del sistema depredador-presa y evaluar la influencia de los parámetros iniciales en la estabilidad del sistema.
 
 ## Docente
 Dr. Paul A. Valle
@@ -22,5 +23,7 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
+[2]I. Miranda, D. Herrera, Nurys Valenciaga, M. López, and M. Fernández, “Modelación de la interacción presa-dos depredadores para el sistema Heteropsylla cubana - Chilocorus cacti - Chrysoperla sp,” 2025. https://www.semanticscholar.org/paper/Modelaci%C3%B3n-de-la-interacci%C3%B3n-presa-dos-depredadores-Miranda-Herrera/0ac284a740963da4ce270f6874aeddaedbb0d7c8 (accessed Mar. 20, 2025).
+‌
 
-[2] González‐Ayón, M. A., Sañudo‐Barajas, J. A., Picos‐Corrales, L. A., & Licea‐Claverie, A. (2015). PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil. Journal of Polymer Science Part A: Polymer Chemistry, 53(22), 2662-2672. doi: https://doi.org/10.1002/pola.27766
+
