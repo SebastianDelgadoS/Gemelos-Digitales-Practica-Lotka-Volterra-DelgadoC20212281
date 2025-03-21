@@ -23,6 +23,7 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
+
 [2]I. Miranda, D. Herrera, Nurys Valenciaga, M. López, and M. Fernández, “Modelación de la interacción presa-dos depredadores para el sistema Heteropsylla cubana - Chilocorus cacti - Chrysoperla sp,” 2025. https://www.semanticscholar.org/paper/Modelaci%C3%B3n-de-la-interacci%C3%B3n-presa-dos-depredadores-Miranda-Herrera/0ac284a740963da4ce270f6874aeddaedbb0d7c8 (accessed Mar. 20, 2025).
 ‌
 
