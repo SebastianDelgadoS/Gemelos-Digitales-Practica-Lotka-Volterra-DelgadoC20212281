@@ -14,18 +14,18 @@ authors:
     given-names: Jose Sebastian
     affiliation: Tecnologico Nacional de Mexico
 repository-code: >-
-  https://github.com/SebastianDelgadoS/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-C20212281_DelgadoSoto
+  https://github.com/SebastianDelgadoS/Gemelos-Digitales-Practica-Lotka-Volterra-DelgadoC20212281
 abstract: |-
   Tecnologico Nacional de Mexico
   Instituto Tecnologico de Tijuana
   Ingenieria Biomédica
   Gemelos Digitales
-  Practica 1-Leyes de Crecimiento Exponencial
+  Practica 2-Lotka-Volterra
 keywords:
-  - Ley de crecimiento exponencial
-  - Metodo de Heun
-  - Nanohidrogeles
-  - Tasas de liberacion de farmacos
-  - Farmaco Cinetica
-  - Protocolo basado en modelos
+ - Lotka-Volterra
+  - HIV
+  - CD4+
+  - Equilibrium
+  - Analysis
+
 license: BSD-2-Clause
